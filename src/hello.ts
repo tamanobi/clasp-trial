@@ -5,4 +5,5 @@ export const greeter = (person: string) => {
 function testGreeter() {
   const user = "Grant";
   Logger.log(greeter(user));
+  GmailApp.sendEmail("tamanobi@gmail.com", "hello", "world");
 }
