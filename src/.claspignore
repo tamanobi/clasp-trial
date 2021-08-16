@@ -1,0 +1,7 @@
+**/**
+!**/*.ts
+.clasp.json
+.clasprc.json
+
+.git/**
+node_modules/**
