@@ -1,0 +1,31 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Gmail",
+        "serviceId": "gmail",
+        "version": "v1"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "lib",
+        "libraryId": "1pdZJ0OBqSndXchvP0oW2j2bwb86PR5WwfSDw58UCNon6Ik-IHZenf7WK",
+        "version": "10"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.deployments",
+    "https://www.googleapis.com/auth/script.projects",
+    "https://www.googleapis.com/auth/script.webapp.deploy",
+    "https://www.googleapis.com/auth/gmail.send",
+    "https://www.googleapis.com/auth/gmail.compose", "https://www.googleapis.com/auth/gmail.modify", "https://mail.google.com/", "https://www.googleapis.com/auth/gmail.addons.current.action.compose"
+  ],
+  "executionApi": {
+    "access": "ANYONE"
+  }
+}
